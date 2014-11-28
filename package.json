@@ -1,0 +1,14 @@
+{
+  "name": "dpd-twilio",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Fong <ericff@gmail.com> (http://waatag.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^1.9.0"
+  }
+}
