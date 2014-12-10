@@ -110,7 +110,10 @@ Twilio.prototype.sendMessage = function(ctx, data) {
     var env = this.options.server.options.env;
     if (this.config.productionOnly && env != 'production') {
         console.log('_______________________________________________');
-        console.log('Simulate Twilio', data);
+        console.log('Twilio Simulate');
+        console.log('From:', data.from);
+        console.log('To:', data.to);
+        console.log(data.body);
         console.log('```````````````````````````````````````````````');
         return ctx.done( null, { message : 'Simulated' } );
     }
