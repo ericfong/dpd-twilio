@@ -1,19 +1,20 @@
 {
   "name": "dpd-twilio",
-  "version": "0.1.4",
-  "description": "Deployd can send SMS via Twilio",
+  "version": "0.1.5",
+  "description": "can send SMS via Twilio in deployd",
   "main": "index.js",
+  "repository": "ericfong/dpd-twilio",
+  "author": "Eric Fong <ericff@gmail.com> (http://waatag.com/)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "dpd",
     "deployd",
-    "dpd-module",
+    "dpdmodule",
     "twilio",
     "sms"
   ],
-  "author": "Eric Fong <ericff@gmail.com> (http://waatag.com/)",
   "license": "ISC",
   "dependencies": {
     "twilio": "^1.9.0"
